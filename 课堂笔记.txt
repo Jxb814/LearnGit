@@ -1,0 +1,5 @@
+Jupyter notebook
+magic命令
+!git...
+%pwd
+%cd ..两点表示上一级目录
