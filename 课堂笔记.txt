@@ -3,3 +3,26 @@ magic命令
 !git...
 %pwd
 %cd ..两点表示上一级目录
+
+
+课件 3 
+3.2
+（1）ans的小数的位数最后为什么那么多？因为float浮点数的0.1不等于0.1！浮点数不精确，是近似值。因为计算机内部二进制表示的问题。
+（2）应改为root interval=[ {0:.9f}, {1:.9f}], ans= {2:.9f}
+3.4
+range(5)，表示[0,1,2,3,4]
+range(1,5)，表示[1,2,3,4]
+scipy.optimize.bisect(f, a, b, args=(), xtol=2e-12, rtol=8.8817841970012523e-16, maxiter=100, full_output=False, disp=True)
+args=()containing extra arguments for the function f. f is called by apply(f, (x)+args)
+(k,)什么意思？
+
+课件 4
+函数变量里，关键词从右往左写。
+# remove all non-letters.
+        letters = ''
+        for c in s:          
+            if c in 'abcdefghijklmnopqrstuvwxyz':
+                letters = letters + c
+        return letters
+
+python的文本串（''' '''）docstring不止是不影响程序运行的注释，还作为一个字符串被储存，可以调用出来
