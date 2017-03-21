@@ -26,3 +26,21 @@ args=()containing extra arguments for the function f. f is called by apply(f, (x
         return letters
 
 python的文本串（''' '''）docstring不止是不影响程序运行的注释，还作为一个字符串被储存，可以调用出来
+
+全局变量外部首先要有定义，然后函数内部用的时候要加global
+
+nameHandle = open('kids.txt', 'w') 打开文件，准备写入
+nameHandle = open('kids.txt', 'r') 打开文件，准备读入 读出所有行
+for line in nameHandle:
+    print(line)             write里有/n 每个line也包含了名字和一个空行，所以会输出空行
+nameHandle.close()       
+
+作业三：
+数据结构+算法=程序设计
+首先描述对象（设备），既有数据，又有行为，所以用类表示这一个整体。
+描述关联件（Node）和关联性，系统特性即定义完成。
+形成**系统方程**（通过算法实现）
+求解系统方程
+
+课件5
+tuple 元组 有序的元素序列 t = (1,) 同一元组内元素可以是不同类型
