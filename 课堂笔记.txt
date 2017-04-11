@@ -90,5 +90,6 @@ plt.legend(loc = 'best')显示标签 best为显示的位置
 
 课件8
 类 异常处理 try: except: raise抛出异常
+__intit__
 内置串方法__str__
 __lt__比较大小（＜）
