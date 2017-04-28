@@ -113,3 +113,38 @@ generator object  生成器 不产生列表， 一个个取元素，
 
 课件7
 异常处理
+with f: 相当于有了finally: f.close
+断言assert -O运行方式 无视断言
+
+列表求和，不需要循环，直接用sum(list)
+也可以直接相减（维度相同，或者减去同一个值）
+
+课件6  （了解即可）
+测试
+1 输入集合 test suite 分成子集
+2 白箱测试：看得见路径代码
+  黑箱测试：只知道输入输出和功能
+3 黑：
+  设计测试的时候不知道被测程序的代码，避免遗漏错误；程序改变，测试不用改变。
+  根据描述设计：（1）边界条件；极小、极大、特殊值
+4 白：
+  知道代码，所有路径都走一遍。
+  有if、except、for loop、while、recursive function判断的地方就要设置一个检查，路径完全。
+5 路径完整也不一定肯定正确，
+6 单元测试（每个模块叫单元/java）集成测试
+7 集成：stub根（方针被测单元的依赖单元）→被测单元→driver驱动（仿真使用被测单元的程序）
+
+单元测试（unit test）
+测试是一个类
+unittest.TestCase注意大小写
+unittest.main()启动单元测试
+几乎相等
+def test_AlmostEqual(self):
+    self.assertAlmostEqual(1.1, 3.3-2.0, places=8)
+水蒸气浮点数比较精确到第八位
+*args对应元组
+**kwds对应字典
+iapws  2130
+
+Ubuntu LTS 16.04.2
+U盘即可启动系统
